@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai4</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="w-50 py-5">
+        <form>
+            <div class="form-group gy-3 px-2 mt-5 text-danger">
+                <label for="chuan">điểm chẩn</label>
+                <input type="text" class="form-control" id="chuan">
+            </div>
+            <div class="form-group gy-3 px-2 mt-5 text-warning">
+                <label for="so1">điểm môn thứ nhất</label>
+                <input type="number" class="form-control" id="so1">
+            </div>
+            <div class="form-group gy-3 px-2 mt-5 text-success">
+                <label for="so2">điểm môn thứ hai</label>
+                <input type="number" class="form-control" id="so2">
+            </div>
+            <div class="form-group gy-3 px-2 mt-5 text-secondary">
+                <label for="so3">điểm môn thứ ba</label>
+                <input type="number" class="form-control" id="so3">
+            </div>
+            <div class="col-12 col-lg-4">
+                <select class="form-control" name="" id="diemKhuVuc">
+                    <option selected disabled value="">Chọn khu vực</option>
+                    <option value="0">Không thuộc khu vực ưu tiên</option>
+                    <option value="2">Khu vực A</option>
+                    <option value="1">Khu vực B</option>
+                    <option value="0.5">Khu vực C</option>
+                </select>
+            </div>
+            <div class="col-12 col-lg-4">
+                <select class="form-control" name="" id="diemDoiTuong">
+                    <option selected disabled value="">Chọn đối tượng</option>
+                    <option value="0">Không thuộc đối tượng ưu tiên</option>
+                    <option value="2.5">Đối tượng 1</option>
+                    <option value="1.5">Đối tượng 2</option>
+                    <option value="1">Đối tượng 3</option>
+                </select>
+            </div>
+
+            <button type="button" id="btnT" class="btn btn-success">kết quả</button>
+        </form>
+        <div class="py-5">
+
+            <p class="alert alert-info" id="txtResult"></p>
+
+        </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+            crossorigin="anonymous"></script>
+
+
+
+        <script src="./bai1.js"></script>
+</body>
+
+</html>

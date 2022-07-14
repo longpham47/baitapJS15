@@ -10,7 +10,7 @@ function ketQuaThi(){
     var doiTuong = Number(document.getElementById("diemDoiTuong").value);
     var tongDiem = diem1 + diem2 + diem3 + khuVuc + doiTuong;
     var ketQua = "";
-    var diem0 = 0 ;
+   
 
     if(diem1 == 0 || diem2 == 0 || diem3 ==0){
         ketQua = "Bạn đã rớt. Do có điểm liệt 0"
